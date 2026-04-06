@@ -23,7 +23,16 @@ const songs = [
         artist: "Kendrick Lamar",
         url: "/songs/Prayer.mp3", 
         duration: "5:21"
+        },
+
+        {
+        id: 4,
+        title: "Wonderwall (Remastered)",
+        artist: "Oasis",
+        url: "/songs/Wonderwall (Remastered).mp3", 
+        duration: "4:18"
         }
+        
 
     ]
 export const MusicProvider = ({children}) => {
