@@ -1,5 +1,7 @@
 
-import { useMusic } from "../Hooks/useMusic";
+
+
+import { useMusic } from "../contexts/MusicContext";
 export const AllSongs = () => {
 
     const { allSongs, handlePlaySong, currentTrackIndex } = useMusic();
